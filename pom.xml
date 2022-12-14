@@ -11,6 +11,7 @@
 	<groupId>com.rgt.demo</groupId>
 	<artifactId>demo-11</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>demo-11</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
