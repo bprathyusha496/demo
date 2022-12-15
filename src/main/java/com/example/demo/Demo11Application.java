@@ -5,7 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Demo11Application {
-
+@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder initializer) {
+	  return initializer.sources(SpringBootThymeleafCrudExApplication.class);
+		
+	}
 	
 	
 	public static void main(String[] args) {
